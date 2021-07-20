@@ -33,3 +33,6 @@ MicroRNA profiling technology has been found to give clues to the progression of
     - StandardScaler
     - cross_val_score
     - RandomizedSearchCV
+
+### Evaluation
+The ensemble of LightGBM, XGBoost, KNN, SVC and logistic regression model has the highest validation accuracy.  The model proved to generalize very well to the unseen test data, receiving a test accuracy of 72.489%.  Of the 41 teams involved in the associated Kaggle competition, this model won the 4th place, with a difference of only 0.408% from the top one.
